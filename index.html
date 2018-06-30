@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Melch Profile</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <style>
+            body {
+                height: 100%;
+            }
+            .navbar-default {
+                background: #008080;
+                margin-bottom: 0;
+                border-color: #008080;
+                border-radius: 0;
+            }
+            .navbar-default .navbar-brand {
+                color: #ffffff;
+            }
+
+            .navbar-default .navbar-nav>li>a {
+                color: #ffffff;
+            }
+
+            .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+                color: #d3d3d3;
+            }
+
+            .jumbotron {
+                background: url('https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b6e57c193484876862be1b18276af164&auto=format&fit=crop&w=1500&q=80') no-repeat center center; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                height: 500px;
+                margin-bottom: 0;
+                
+            }
+
+            #headerImg > * {
+                color: #ffffff !important;
+                
+            }
+
+            .portfolio {
+                background: #d3d3d3;
+                height: 100px;
+                box-shadow: 0 2px 3px #33333399;
+                position: relative;
+                z-index: 1;
+            }
+
+           
+        </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Melch Profile</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <!-- <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Link</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul> -->
+            <!-- <form class="navbar-form navbar-left">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form> -->
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Me <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Work Experience</a></li>
+                  <li><a href="#">Skills</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+    <div class="jumbotron" style="margin-top: 50px;">
+        <div class="container">
+            <div class="col-md-6"></div>
+            <div class="text-right col-md-6" id="headerImg">
+                <h1 class="greet" style="text-shadow: 2px 2px 4px #000000;">Hi! My name is <strong>Melch</strong></h1>
+                <p>I'm a full stack web designer and developer. I specialize in launching beautiful websites that adds value and make client happy.</p>
+                <p><a class="btn btn-primary btn-lg pull-right" href="#" role="button">Contact</a></p>
+            </div>
+            </div>
+    </div>
+
+    <!-- SECTION DIVIDER     -->
+    <div class="row portfolio">
+        <div class="container">
+                <div class="col-md-12">
+                    <h2 style="line-height: 60px;">My Portfolio</h2>
+                </div>
+        </div>
+    </div>
+
+    <!-- PORTFOLIO CONTAINER     -->
+    <div class="row">
+        <div class="col-md-4 portfolioColumn">
+            <img class="img-responsive" src="https://images.unsplash.com/photo-1483738264799-0a03c7a9889f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b5bad6d8d268a3ca592ec2ad7cbdb70&auto=format&fit=crop&w=752&q=80" alt="">
+        </div>
+
+        <div class="col-md-8">
+            
+                
+        </div>
+    </div>
+
+    <!-- SECTION DIVIDER     -->
+    <div class="row portfolio">
+            <div class="container">
+                    <div class="col-md-12">
+                        <h2 style="line-height: 60px;">Projects</h2>
+                    </div>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1493402702251-a6e5320337f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=65eee93f041b28d209db0f40ddb627d8&auto=format&fit=crop&w=750&q=80" alt="...">
+            </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1493402702251-a6e5320337f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=65eee93f041b28d209db0f40ddb627d8&auto=format&fit=crop&w=750&q=80" alt="...">
+                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                    <a href="#" class="thumbnail">
+                        <img src="https://images.unsplash.com/photo-1493402702251-a6e5320337f7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=65eee93f041b28d209db0f40ddb627d8&auto=format&fit=crop&w=750&q=80" alt="...">
+                    </a>
+                </div>
+                
+    </div>
+
+    
+    <div class="well well-lg">2018 All Rights Reserved <span class="pull-right">Portfolio</span> </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
